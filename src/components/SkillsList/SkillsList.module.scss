@@ -1,0 +1,33 @@
+.card__skillsList {
+  text-decoration: none;
+  list-style: none;
+  margin-top: 10px;
+  margin-left: 20px;
+}
+
+.card__skillsList_item {
+  display: flex;
+  align-items: center;
+}
+
+.card__skillsList_pointer {
+  width: 15px;
+  height: 15px;
+  margin-right: 5px;
+}
+
+.card__skillsList_skill {
+  font-family: "Arial Black", sans-serif;
+  color: rgba(50, 50, 50, 0.85);
+  font-size: 14px;
+  padding: 3px 0;
+}
+
+.card__skills {
+  font-family: "Arial Black", sans-serif;
+  color: rgba(0, 100, 100, 0.85);
+  font-size: 18px;
+  padding: 0 10px;
+}
+
+

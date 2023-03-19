@@ -1,0 +1,23 @@
+.header__wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.header {
+  width: 1080px;
+  padding: 50px 50px 0 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header_name {
+  font-size: 48px;
+  font-family: "Arial Black", sans-serif;
+  color: rgba(0, 100, 100, 0.8);
+}
+
+.header_link {
+  text-decoration: none;
+
+}

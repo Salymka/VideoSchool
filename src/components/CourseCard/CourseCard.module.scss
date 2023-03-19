@@ -1,0 +1,101 @@
+.colorRed {
+  color: red;
+}
+
+.card {
+  margin: 50px auto;
+  padding: 5px 10px;
+  width: 1200px;
+  background: rgba(0, 100, 100, 0.00);
+  border: 2px solid rgba(0, 100, 100, 0.8);
+  border-radius: 10px;
+  display: flex;
+
+}
+
+.card_previewImage {
+  width: 550px;
+  height: max-content;
+  padding: 8px;
+}
+
+.card__video {
+  width: 550px;
+  height: max-content;
+  display: none;
+  padding: 8px;
+}
+
+.card__info {
+  display: flex;
+  flex-direction: column;
+}
+
+.card__info_title {
+  font-family: "Arial Black", sans-serif;
+  color: rgba(0, 100, 100, 0.9);
+  font-size: 20px;
+  padding: 5px 10px;
+  text-decoration: none;
+
+  &:hover {
+    color: rgba(100, 200, 200, 0.85);
+  }
+}
+
+.card__info_description {
+  padding: 0 10px;
+  font-family: "Arial Black", sans-serif;
+  color: rgba(0, 100, 100, 0.75);
+  font-size: 14px;
+}
+
+.card__info_countLessonsAndRating {
+  display: flex;
+  flex-direction: row;
+  padding: 10px;
+}
+
+.card__info_lessonsCount {
+  font-family: "Arial Black", sans-serif;
+  color: rgba(0, 100, 100, 0.85);
+  font-size: 18px;
+}
+
+.card__info_rating {
+  font-family: "Arial Black", sans-serif;
+  color: rgba(0, 100, 100, 0.85);
+  font-size: 18px;
+  margin-left: 30px;
+}
+
+@media (max-width: 1320px) {
+  .card {
+    flex-direction: column;
+    width: 400px;
+  }
+
+  .card_previewImage {
+    width: 380px;
+  }
+
+  .card__video {
+    width: 380px;
+  }
+  .card__info_countLessonsAndRating {
+    display: block;
+    flex-direction: column;
+  }
+  .card__info_lessonsCount {
+    display: block;
+  }
+  .card__info_rating {
+    display: block;
+    margin: 0;
+    padding-top: 5px;
+  }
+
+}
+
+
+

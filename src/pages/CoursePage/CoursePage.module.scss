@@ -1,0 +1,44 @@
+.red {
+  color: red;
+}
+
+.speed_help {
+  font-family: "Arial Black", sans-serif;
+  color: rgba(0, 100, 100, 0.95);
+  font-size: 16px;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 5px;
+}
+
+.lesson__body__wrapper {
+  display: flex;
+  width: 1080px;
+  margin: 80px auto 0;
+}
+
+
+.lesson__body_video {
+  margin: 0 0 0 80px;
+}
+
+.lesson_video {
+  width: 800px;
+  height: max-content;
+}
+
+.lesson__body_title {
+  font-size: 28px;
+  height: 40px;
+  font-family: "Arial Black", sans-serif;
+  color: rgba(0, 100, 100, 0.8);
+  margin: 0 0 40px 0;
+  display: block;
+}
+
+.lesson__body_description {
+  font-size: 18px;
+  font-family: "Arial Black", sans-serif;
+  color: rgba(0, 100, 100, 0.7);
+  margin: 20px 0 0 0;
+}
