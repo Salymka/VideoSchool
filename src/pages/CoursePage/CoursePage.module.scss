@@ -42,3 +42,46 @@
   color: rgba(0, 100, 100, 0.7);
   margin: 20px 0 0 0;
 }
+
+@media (max-width: 1320px) {
+  .speed_help {
+    display: none;
+  }
+
+  .lesson__body__wrapper {
+    display: flex;
+    width: 400px;
+    flex-direction: column-reverse;
+    align-items: center;
+    margin: 30px auto;
+
+  }
+
+
+  .lesson__body_video {
+    margin: 0 0 0 0;
+  }
+
+  .lesson_video {
+    width: 380px;
+    margin-top: 20px;
+  }
+
+  .lesson__body_title {
+    font-size: 28px;
+    height: 40px;
+    font-family: "Arial Black", sans-serif;
+    color: rgba(0, 100, 100, 0.8);
+    margin: 0 0 40px 0;
+    display: block;
+  }
+
+  .lesson__body_description {
+    font-size: 18px;
+    font-family: "Arial Black", sans-serif;
+    color: rgba(0, 100, 100, 0.7);
+    margin: 20px 0 0 0;
+  }
+
+
+}

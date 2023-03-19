@@ -32,7 +32,9 @@ const CoursePage = () => {
             return;
         }
         const lesson = course.lessons.find(lesson => lesson.order === orderNumber)
-        lesson.title = `Lesson - ${lesson.order} : ` + lesson.title
+        if (!lesson.title.includes("Lesson -")) {
+            lesson.title = `Lesson - ${lesson.order} : ` + lesson.title
+        }
         setOrder(lesson)
     }
 
