@@ -28,3 +28,6 @@ __ __
 
 ### *** Token save to LocalStorage when going inicialization  With case : "VideoSchoolToken" ***
 __ __
+
+### *** Add hover on preview image to start video ***
+ __ __
